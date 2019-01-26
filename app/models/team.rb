@@ -5,7 +5,7 @@ class Team
 
   def initialize(params)
     @name = params[:name]
-    @motto = params[:name]
+    @motto = params[:motto]
     TEAM << self
   end
 
